@@ -1,0 +1,37 @@
+{
+  "data": [
+      {
+      "id": "1",
+      "type": "beer",
+      "attributes": {
+        "brewery_id": 1,
+        "name": "Bud Light",
+        "abv": 4.5,
+        "description": "Ever wonder what water tastes like?",
+        "style": "Lager"
+      }
+    },
+      {
+      "id": "2",
+      "type": "beer",
+      "attributes": {
+        "brewery_id": 2,
+        "name": "Coors Light",
+        "abv": 5.0,
+        "description": "Ever wonder what Colorado water tastes like?",
+        "style": "Lager"
+      }
+    },
+      {
+      "id": "3",
+      "type": "beer",
+      "attributes": {
+        "brewery_id": 3,
+        "name": "Colt 45",
+        "abv": 7.0,
+        "description": "Usually found in a brown paper bag",
+        "style": "Malt Liquor"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "id": "1",
+    "type": "trip",
+    "attributes": {
+      "destination": "Mt. Sneffels",
+      "address": "",
+      "date": "2021-08-02",
+      "zip_code": 81432
+    },
+    "relationships": {
+            "beer": {
+                "data": [
+                    {
+                        "id": "3",
+                        "type": "beer"
+                    }
+  }
+}
