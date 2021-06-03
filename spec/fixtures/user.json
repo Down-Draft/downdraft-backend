@@ -1,0 +1,11 @@
+{
+  "data": {
+    "id": "1",
+    "type": "user",
+    "attributes": {
+      "name": "Homer Simpson",
+      "email": "homersimpson@gmail.com",
+      "zip_code": 80033
+    }
+  }
+}

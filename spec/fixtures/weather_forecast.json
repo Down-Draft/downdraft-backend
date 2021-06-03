@@ -1,0 +1,43 @@
+{
+  "data": [
+      {
+      "id": "1",
+      "type": "forecast",
+      "attributes": {
+        "date": "2021-06-02",
+        "location_name": "Denver",
+        "location_state": "Colorado",
+        "max_temp": 80,
+        "min_temp": 55,
+        "description": "Patchy rain possible",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+      }
+    },
+      {
+      "id": "2",
+      "type": "forecast",
+      "attributes": {
+        "date": "2021-06-03",
+        "location_name": "Denver",
+        "location_state": "Colorado",
+        "max_temp": 75,
+        "min_temp": 50,
+        "description": "Patchy cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+      }
+    },
+      {
+      "id": "3",
+      "type": "forecast",
+      "attributes": {
+        "date": "2021-06-04",
+        "location_name": "Denver",
+        "location_state": "Colorado",
+        "max_temp": 70,
+        "min_temp": 51,
+        "description": "Patchy cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+      }
+    }
+  ]
+}
