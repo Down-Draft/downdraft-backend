@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_02_010712) do
+ActiveRecord::Schema.define(version: 2021_06_03_195453) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,9 +18,9 @@ ActiveRecord::Schema.define(version: 2021_06_02_010712) do
   create_table "beers", force: :cascade do |t|
     t.bigint "brewery_id"
     t.string "name"
-    t.bigint "style_id"
     t.float "abv"
     t.string "description"
+    t.bigint "style_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["style_id"], name: "index_beers_on_style_id"
@@ -32,5 +32,26 @@ ActiveRecord::Schema.define(version: 2021_06_02_010712) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "trip_beers", force: :cascade do |t|
+    t.bigint "beer_id"
+    t.bigint "trip_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["beer_id"], name: "index_trip_beers_on_beer_id"
+    t.index ["trip_id"], name: "index_trip_beers_on_trip_id"
+  end
+
+  create_table "trips", force: :cascade do |t|
+    t.date "date"
+    t.float "elevation"
+    t.string "name"
+    t.string "location"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+  end
+
   add_foreign_key "beers", "styles"
+  add_foreign_key "trip_beers", "beers"
+  add_foreign_key "trip_beers", "trips"
 end
