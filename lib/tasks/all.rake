@@ -1,5 +1,4 @@
-require 'csv'
-require 'pry'
+
 
 namespace :csv_load do
   desc "Seed database with all csv files"
