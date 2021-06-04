@@ -6,7 +6,7 @@ RSpec.describe "Elevation Service" do
       results = ElevationService.fetch_elevation(39.74,-104.98)
 
       expect(results).to be_a(Hash)
-      expect(results[:results].first[:elevation]).to eq(1616.0)
+      expect(results[:elevation]).to eq(1616.0)
     end
   end
 end
