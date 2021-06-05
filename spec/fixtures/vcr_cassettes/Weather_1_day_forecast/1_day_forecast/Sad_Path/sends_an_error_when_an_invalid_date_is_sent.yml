@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?alerts=no&aqi=no&date=1995-06-10&hour=12&q=80206
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Key:
+      - dc413d9b51b243228c6211920210106
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 05 Jun 2021 23:26:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-301
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '301'
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      Cdn-Cachedat:
+      - '2021-06-05 18:26:27'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Requestid:
+      - be0085a5d2ae41e0bcb86b8f6a0b2ae0
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1622935587,"localtime":"2021-06-05
+        17:26"},"current":{"last_updated_epoch":1622934900,"last_updated":"2021-06-05
+        17:15","temp_c":31.7,"temp_f":89.1,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":0.0,"wind_kph":0.0,"wind_degree":255,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":30.3,"precip_mm":0.0,"precip_in":0.0,"humidity":17,"cloud":25,"feelslike_c":29.5,"feelslike_f":85.0,"vis_km":16.0,"vis_miles":9.0,"uv":8.0,"gust_mph":12.1,"gust_kph":19.4},"forecast":{"forecastday":[]}}'
+  recorded_at: Sat, 05 Jun 2021 23:26:27 GMT
+recorded_with: VCR 6.0.0

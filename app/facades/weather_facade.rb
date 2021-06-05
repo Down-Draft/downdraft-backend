@@ -21,5 +21,7 @@ class WeatherFacade
       day[:location_region] = location_region
       WeatherDay.new(day)
     end.first
+  rescue NoMethodError
+    json
   end
 end
