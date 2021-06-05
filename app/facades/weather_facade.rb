@@ -8,6 +8,8 @@ class WeatherFacade
       day[:location_region] = location_region
       WeatherDay.new(day)
     end
+  rescue NoMethodError
+    json
   end
 
   def self.one_day_forecast(location, date)

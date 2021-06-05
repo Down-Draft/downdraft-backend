@@ -22,15 +22,15 @@ describe 'Weather 3 day forecast' do
       end
     end
     describe 'Sad Path' do
-      xit 'sends an error when an invalid location is sent', :vcr do
+      it 'sends an error when an invalid location is sent', :vcr do
 
-        get '/api/v1/elevation', params: {location:"1" }
-        elevation = JSON.parse(response.body, symbolize_names: true)
+        get '/api/v1/3-day-forecast', params: {location:"1" }
+        weather = JSON.parse(response.body, symbolize_names: true)
 
         expect(response.status).to eq(404)
-        expect(elevation).to be_a Hash
-        expect(elevation).to have_key(:errors)
-        expect(elevation[:errors]).to eq("Location not found")
+        expect(weather).to be_a Hash
+        expect(weather).to have_key(:errors)
+        expect(weather[:errors]).to eq("Location not found")
       end
     end
   end
