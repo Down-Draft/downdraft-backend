@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?alerts=no&aqi=no&date=2021-06-10&hour=12&q=80206
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Key:
+      - dc413d9b51b243228c6211920210106
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 05 Jun 2021 22:59:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-DEN1-616
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '616'
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      Cdn-Cachedat:
+      - '2021-06-05 16:59:34'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Requestid:
+      - 52f70feb10e3b4c7e4f9a7aa8b8648d2
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1622933974,"localtime":"2021-06-05
+        16:59"},"current":{"last_updated_epoch":1622933100,"last_updated":"2021-06-05
+        16:45","temp_c":31.7,"temp_f":89.1,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":340,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":30.3,"precip_mm":0.0,"precip_in":0.0,"humidity":15,"cloud":25,"feelslike_c":29.5,"feelslike_f":85.0,"vis_km":16.0,"vis_miles":9.0,"uv":8.0,"gust_mph":8.5,"gust_kph":13.7},"forecast":{"forecastday":[{"date":"2021-06-10","date_epoch":1623283200,"day":{"maxtemp_c":30.9,"maxtemp_f":87.6,"mintemp_c":18.6,"mintemp_f":65.5,"avgtemp_c":25.1,"avgtemp_f":77.1,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":0.2,"totalprecip_in":0.01,"avgvis_km":9.9,"avgvis_miles":6.0,"avghumidity":24.0,"daily_will_it_rain":1,"daily_chance_of_rain":"81","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":6.0},"astro":{"sunrise":"05:32
+        AM","sunset":"08:27 PM","moonrise":"05:35 AM","moonset":"09:01 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"7"},"hour":[{"time_epoch":1623348000,"time":"2021-06-10
+        12:00","temp_c":31.4,"temp_f":88.5,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":16.6,"wind_kph":26.6,"wind_degree":202,"wind_dir":"SSW","pressure_mb":1002.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":11,"cloud":0,"feelslike_c":29.2,"feelslike_f":84.6,"windchill_c":31.4,"windchill_f":88.5,"heatindex_c":29.2,"heatindex_f":84.6,"dewpoint_c":-2.9,"dewpoint_f":26.8,"will_it_rain":0,"chance_of_rain":"0","will_it_snow":0,"chance_of_snow":"0","vis_km":10.0,"vis_miles":6.0,"gust_mph":19.0,"gust_kph":30.6,"uv":8.0}]}]}}'
+  recorded_at: Sat, 05 Jun 2021 22:59:34 GMT
+recorded_with: VCR 6.0.0
