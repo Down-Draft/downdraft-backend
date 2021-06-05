@@ -37,6 +37,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'geocoder'
 gem 'csv'
+gem 'simplecov'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
@@ -48,7 +49,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
-  gem 'simplecov'
+  # gem 'simplecov'
   gem 'orderly'
   gem 'nyan-cat-formatter'
   gem 'shoulda-matchers'
