@@ -14,5 +14,17 @@ describe 'Elevation' do
         expect(elevation[:data][:attributes]).to have_key(:elevation)
       end
     end
+    describe 'Sad Path' do
+      it 'sends an error when an invalid location is sent', :vcr do
+
+        get '/api/v1/elevation', params: {location:"1" }
+        elevation = JSON.parse(response.body, symbolize_names: true)
+
+        expect(response.status).to eq(404)
+        expect(elevation).to be_a Hash
+        expect(elevation).to have_key(:errors)
+        expect(elevation[:errors]).to eq("Location not found")
+      end
+    end
   end
 end
