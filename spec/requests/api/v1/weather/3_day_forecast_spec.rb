@@ -5,14 +5,20 @@ describe 'Weather 3 day forecast' do
     describe 'Happy Path' do
       it 'sends a 3 day forecast when sent a valid location', :vcr do
 
-        get '/3-day-forecast', params: {location:"80206" }
+        get '/api/v1/3-day-forecast', params: {location:"80206" }
         weather = JSON.parse(response.body, symbolize_names: true)
-        binding.pry
+
         expect(response).to be_successful
-        expect(elevation[:data].count).to eq(3)
-        expect(elevation).to be_a Hash
-        expect(elevation[:data]).to have_key(:attributes)
-        expect(elevation[:data][:attributes]).to have_key(:elevation)
+        expect(weather[:data].count).to eq(3)
+        expect(weather).to be_a Hash
+        expect(weather[:data].first).to have_key(:attributes)
+        expect(weather[:data].first[:attributes]).to have_key(:location_name)
+        expect(weather[:data].first[:attributes]).to have_key(:location_state)
+        expect(weather[:data].first[:attributes]).to have_key(:date)
+        expect(weather[:data].first[:attributes]).to have_key(:max_temp)
+        expect(weather[:data].first[:attributes]).to have_key(:min_temp)
+        expect(weather[:data].first[:attributes]).to have_key(:description)
+        expect(weather[:data].first[:attributes]).to have_key(:icon)
       end
     end
     describe 'Sad Path' do

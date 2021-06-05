@@ -6,8 +6,10 @@ class WeatherService
   end
 
   def self.fetch_three_days(location)
+
     response = conn.get("/v1/forecast.json?q=#{location}&days=3&aqi=no&alerts=no&hour=12")
     JSON.parse(response.body, symbolize_names: true)
+
   end
 
   def self.fetch_single_day(location, date)
