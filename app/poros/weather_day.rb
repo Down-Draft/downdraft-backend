@@ -6,6 +6,7 @@ class WeatherDay
               :min_temp,
               :description,
               :icon
+
   def initialize(weather_info)
     @location_name = weather_info[:location_name]
     @location_state = weather_info[:location_region]
