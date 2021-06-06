@@ -1,4 +1,5 @@
 class Api::V1::TripsController < ApplicationController
+  before_action :set_trip, only: %i[show update destroy]
 
   def create
     coordinates = Geocoder.search(params[:location]).first.coordinates
@@ -14,9 +15,17 @@ class Api::V1::TripsController < ApplicationController
     render json: {errors: "Could not find location. Please ensure zip code is valid or try again later."}, status: :bad_request
   end
 
+  def destroy
+    @trip.destroy
+  end
+
   private
 
   def trip_params
     params.permit(:location, :name, :date, :user_id, :elevation)
+  end
+
+  def set_trip
+    @trip = Trip.find_by(id: params[:id])
   end
 end
