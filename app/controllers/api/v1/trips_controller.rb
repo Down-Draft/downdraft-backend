@@ -4,7 +4,7 @@ class Api::V1::TripsController < ApplicationController
   def create
     coordinates = Geocoder.search(params[:location]).first.coordinates
     elevation = ElevationService.fetch_elevation(coordinates[0], coordinates[1])
-    params[:elevation] = elevation[:elevation]
+    params[:elevation] = (elevation[:elevation] * 3.28084)
     trip = Trip.new(trip_params)
     if trip.save
       render json: TripSerializer.new(trip), status: :created
