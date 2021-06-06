@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       get '/elevation', to: 'elevation#index'
       get '/3-day-forecast', to: 'forecast#three_day'
       get '/1-day-forecast', to: 'forecast#one_day'
+      resources :trips
     end
   end
 end
