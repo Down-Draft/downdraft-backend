@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=80206
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 06 Jun 2021 20:39:35 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjI1OTQwNzQwMSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJyZWxhdGlvbiIsIm9zbV9pZCI6OTM5MjA3NCwiYm91bmRpbmdib3giOlsiMzkuNzIzMjAzNiIsIjM5LjcyMzQ1NTciLCItMTA0Ljk0NTk3ODciLCItMTA0Ljk0NTYyNDQiXSwibGF0IjoiMzkuNzIzMzI5NyIsImxvbiI6Ii0xMDQuOTQ1NzkwNjczNjAxMTIiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENvbG9yYWRvLCA4MDIwNiwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoicG9zdGNvZGUiLCJpbXBvcnRhbmNlIjowLjMzNDk5OTk5OTk5OTk5OTk2LCJhZGRyZXNzIjp7ImNpdHkiOiJEZW52ZXIiLCJzdGF0ZSI6IkNvbG9yYWRvIiwicG9zdGNvZGUiOiI4MDIwNiIsImNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6MjYwODM3ODczLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJib3VuZGluZ2JveCI6WyIzOS41NzA1NDYwMDYyMDMiLCIzOS44OTA1NDYwMDYyMDMiLCItMTA1LjExMTgxNzM4MDUzIiwiLTEwNC43OTE4MTczODA1MyJdLCJsYXQiOiIzOS43MzA1NDYwMDYyMDI2MSIsImxvbiI6Ii0xMDQuOTUxODE3MzgwNTI1MjQiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIERlbnZlciBDb3VudHksIENvbG9yYWRvLCA4MDIwNiwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoicG9zdGNvZGUiLCJpbXBvcnRhbmNlIjowLjMzNDk5OTk5OTk5OTk5OTk2LCJhZGRyZXNzIjp7ImNpdHkiOiJEZW52ZXIiLCJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsInBvc3Rjb2RlIjoiODAyMDYiLCJjb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOjI2MDE4MTMyMiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0IiwiYm91bmRpbmdib3giOlsiNTUuNzAzMDY0NjMzODYiLCI1Ni4wMjMwNjQ2MzM4NiIsIjIyLjk1MTQ2NDI2NzgwNiIsIjIzLjI3MTQ2NDI2NzgwNiJdLCJsYXQiOiI1NS44NjMwNjQ2MzM4NTk1NyIsImxvbiI6IjIzLjExMTQ2NDI2NzgwNjIwNSIsImRpc3BsYXlfbmFtZSI6IkJ1YmnFsyBzZW5pxatuaWphLCDFoGlhdWxpxbMgcmFqb25vIHNhdml2YWxkeWLElywgU2lhdWxpYWkgQ291bnR5LCA4MDIwNiwgTGl0aHVhbmlhIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJwb3N0Y29kZSIsImltcG9ydGFuY2UiOjAuMzM0OTk5OTk5OTk5OTk5OTYsImFkZHJlc3MiOnsiY291bnR5IjoiQnViacWzIHNlbmnFq25pamEiLCJzdGF0ZV9kaXN0cmljdCI6IsWgaWF1bGnFsyByYWpvbm8gc2F2aXZhbGR5YsSXIiwic3RhdGUiOiJTaWF1bGlhaSBDb3VudHkiLCJwb3N0Y29kZSI6IjgwMjA2IiwiY291bnRyeSI6IkxpdGh1YW5pYSIsImNvdW50cnlfY29kZSI6Imx0In19LHsicGxhY2VfaWQiOjI2NDYzMDg5LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI2MzMyMTcwMjcsImJvdW5kaW5nYm94IjpbIi04LjA0NTYyODUiLCItOC4wNDU1Mjg1IiwiLTM0Ljk0MDE2MzYiLCItMzQuOTQwMDYzNiJdLCJsYXQiOiItOC4wNDU1Nzg1IiwibG9uIjoiLTM0Ljk0MDExMzYiLCJkaXNwbGF5X25hbWUiOiI4MDIwNiwgUnVhIGRvIEJvbSBQYXN0b3IsIElwdXRpbmdhLCBSZWNpZmUsIFJlZ2nDo28gR2VvZ3LDoWZpY2EgSW1lZGlhdGEgZG8gUmVjaWZlLCBSZWdpw6NvIE1ldHJvcG9saXRhbmEgZG8gUmVjaWZlLCBQZXJuYW1idWNvLCBOb3J0aGVhc3QgUmVnaW9uLCA1MDY3MC0yNjAsIEJyYXppbCIsImNsYXNzIjoiaGlnaHdheSIsInR5cGUiOiJidXNfc3RvcCIsImltcG9ydGFuY2UiOjAuMTExMDAwMDAwMDAwMDAwMDIsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy8vdHJhbnNwb3J0X2J1c19zdG9wMi5wLjIwLnBuZyIsImFkZHJlc3MiOnsiaGlnaHdheSI6IjgwMjA2Iiwicm9hZCI6IlJ1YSBkbyBCb20gUGFzdG9yIiwic3VidXJiIjoiSXB1dGluZ2EiLCJjaXR5X2Rpc3RyaWN0IjoiUmVjaWZlIiwiY2l0eSI6IlJlY2lmZSIsIm11bmljaXBhbGl0eSI6IlJlZ2nDo28gR2VvZ3LDoWZpY2EgSW1lZGlhdGEgZG8gUmVjaWZlIiwiY291bnR5IjoiUmVnacOjbyBNZXRyb3BvbGl0YW5hIGRvIFJlY2lmZSIsInN0YXRlIjoiUGVybmFtYnVjbyIsInJlZ2lvbiI6Ik5vcnRoZWFzdCBSZWdpb24iLCJwb3N0Y29kZSI6IjUwNjcwLTI2MCIsImNvdW50cnkiOiJCcmF6aWwiLCJjb3VudHJ5X2NvZGUiOiJiciJ9fSx7InBsYWNlX2lkIjo2NjQ3ODYwLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjc2NzE4MzUzNCwiYm91bmRpbmdib3giOlsiNTMuODk3NjE4OSIsIjUzLjg5NzcxODkiLCIyNy41MDU3NDA5IiwiMjcuNTA1ODQwOSJdLCJsYXQiOiI1My44OTc2Njg5IiwibG9uIjoiMjcuNTA1NzkwOSIsImRpc3BsYXlfbmFtZSI6ItCR0LXRgtC+0L3QvdGLINC/0YDQsNC10LfQtCwg0KXQsNGA0YzQutC+0LLRgdC60LDRjyDRg9C70LjRhtCwLCBIcnXFoWHFrWthLCBNYXNrb3dza2kgRGlzdHJpY3QsIE1pbnNrLCA3MjIwODUsIEJlbGFydXMiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoiYnVzX3N0b3AiLCJpbXBvcnRhbmNlIjowLjAwMSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zLy90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJoaWdod2F5Ijoi0JHQtdGC0L7QvdC90Ysg0L/RgNCw0LXQt9C0Iiwicm9hZCI6ItCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0YPQu9C40YbQsCIsInN1YnVyYiI6IkhydcWhYcWta2EiLCJjaXR5X2Rpc3RyaWN0IjoiTWFza293c2tpIERpc3RyaWN0IiwiY2l0eSI6Ik1pbnNrIiwicG9zdGNvZGUiOiI3MjIwODUiLCJjb3VudHJ5IjoiQmVsYXJ1cyIsImNvdW50cnlfY29kZSI6ImJ5In19LHsicGxhY2VfaWQiOjY4MjYyMTk3LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjYxMTk1MjcwMTEsImJvdW5kaW5nYm94IjpbIjQ1LjUzMjcxOCIsIjQ1LjUzMjgxOCIsIi03My45MTgzNjkiLCItNzMuOTE4MjY5Il0sImxhdCI6IjQ1LjUzMjc2OCIsImxvbiI6Ii03My45MTgzMTkiLCJkaXNwbGF5X25hbWUiOiJkJ09rYSAvIDVlIEF2ZW51ZSwgQ2hlbWluIGQnT2thLCBEb21haW5lIGRlIG1haXNvbnMgbW9kdWxhaXJlcyBEZXV4LU1vbnRhZ25lcywgU2FpbnRlLU1hcnRoZS1zdXItbGUtTGFjLCBEZXV4LU1vbnRhZ25lcywgTGF1cmVudGlkZXMsIFF1ZWJlYywgSjBOIDFQMCwgQ2FuYWRhIiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4wMDEsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy8vdHJhbnNwb3J0X2J1c19zdG9wMi5wLjIwLnBuZyIsImFkZHJlc3MiOnsiaGlnaHdheSI6ImQnT2thIC8gNWUgQXZlbnVlIiwicm9hZCI6IkNoZW1pbiBkJ09rYSIsIm5laWdoYm91cmhvb2QiOiJEb21haW5lIGRlIG1haXNvbnMgbW9kdWxhaXJlcyBEZXV4LU1vbnRhZ25lcyIsInRvd24iOiJTYWludGUtTWFydGhlLXN1ci1sZS1MYWMiLCJjb3VudHkiOiJEZXV4LU1vbnRhZ25lcyIsInJlZ2lvbiI6IkxhdXJlbnRpZGVzIiwic3RhdGUiOiJRdWViZWMiLCJwb3N0Y29kZSI6IkowTiAxUDAiLCJjb3VudHJ5IjoiQ2FuYWRhIiwiY291bnRyeV9jb2RlIjoiY2EifX1d
+  recorded_at: Sun, 06 Jun 2021 20:39:35 GMT
+- request:
+    method: get
+    uri: https://api.opentopodata.org/v1/srtm90m?locations=39.7233297,-104.94579067360112
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Jun 2021 20:39:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 0a84a6783f00000fc9c522e000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=1eUIPv5VUW2YujzM%2BQf9gBtMvjecZN%2F6OXfuqfaf4bGq9Udttl%2BduvxLQZPXvOPq9QZkW%2Fa%2BHgViUoRUtFjLRmCVse3s0iuvPNaG%2BUmMMwRppbezkPCW0K2qLmZBs0mLJVozVHQU69iZ%2BewTvhY%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 65b4736d3dd40fc9-ATL
+      Alt-Svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n  \"results\": [\n    {\n      \"dataset\": \"srtm90m\", \n      \"elevation\":
+        1643.0, \n      \"location\": {\n        \"lat\": 39.7233297, \n        \"lng\":
+        -104.94579067360112\n      }\n    }\n  ], \n  \"status\": \"OK\"\n}\n"
+  recorded_at: Sun, 06 Jun 2021 20:39:35 GMT
+recorded_with: VCR 6.0.0

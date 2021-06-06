@@ -13,7 +13,7 @@ RSpec.describe Elevation do
       }
       elevation = Elevation.new(elevation_info)
 
-      expect(elevation.elevation).to eq(1616.0)
+      expect(elevation.elevation).to eq(5301.83744)
     end
   end
 end
