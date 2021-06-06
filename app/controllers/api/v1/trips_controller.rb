@@ -28,6 +28,14 @@ class Api::V1::TripsController < ApplicationController
     render json: TripSerializer.new(trips)
   end
 
+  def show
+    if @trip.nil?
+      render json: TripSerializer.new(Trip.new), status: :not_found
+    else
+      render json: TripSerializer.new(@trip)
+    end
+  end
+
   private
 
   def trip_params
