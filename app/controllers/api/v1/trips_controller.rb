@@ -16,7 +16,11 @@ class Api::V1::TripsController < ApplicationController
   end
 
   def destroy
-    @trip.destroy
+    if @trip.nil?
+      render json: TripSerializer.new(Trip.new), status: :not_found
+    else
+      @trip.destroy
+    end
   end
 
   private

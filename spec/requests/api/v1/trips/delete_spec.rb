@@ -14,4 +14,11 @@ RSpec.describe 'Delete Trips' do
       expect(TripBeer.count).to eq(0)
     end
   end
+
+  describe 'sad path' do
+    it 'returns not found if trip does not exist', :vcr do
+      delete "/api/v1/trips/1"
+      expect(response.status).to eq(404)
+    end
+  end
 end
