@@ -16,4 +16,22 @@ RSpec.describe 'Create Trips' do
       expect(Trip.count).to eq(1)
     end
   end
+
+  describe 'sad paths' do
+    it 'shows an error message when params are incorrect', :vcr do
+      post '/api/v1/trips', params: {location: 80206, name: "",
+         date: "2021-06-10"}
+      trip = JSON.parse(response.body, symbolize_names: true)
+      expect(response.status).to eq(400)
+      expect(trip[:errors]).to be_a(Array)
+    end
+
+    it 'shows an error message if elevation api fails', :vcr do
+      post '/api/v1/trips', params: {name: "Denver",
+         date: "2021-06-10", user_id: 1}
+      trip = JSON.parse(response.body, symbolize_names: true)
+      expect(response.status).to eq(400)
+      expect(trip[:errors]).to be_a(String)
+    end
+  end
 end

@@ -5,8 +5,13 @@ class Api::V1::TripsController < ApplicationController
     elevation = ElevationService.fetch_elevation(coordinates[0], coordinates[1])
     params[:elevation] = elevation[:elevation]
     trip = Trip.new(trip_params)
-    trip.save
-    render json: TripSerializer.new(trip), status: :created
+    if trip.save
+      render json: TripSerializer.new(trip), status: :created
+    else
+      render json: {errors: trip.errors.full_messages}, status: :bad_request
+    end
+  rescue NoMethodError
+    render json: {errors: "Could not find location. Please ensure zip code is valid or try again later."}, status: :bad_request
   end
 
   private
