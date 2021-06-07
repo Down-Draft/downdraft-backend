@@ -1,6 +1,5 @@
 class TripSerializer
   include FastJsonapi::ObjectSerializer
-  set_id :object_id
   attributes :location, :name, :date, :elevation, :user_id
-  has_many :beers, if: Proc.new{|record| record.beers.any?}
+  has_many :beers, if: proc { |record| record.beers.any? }
 end

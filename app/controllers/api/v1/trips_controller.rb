@@ -1,18 +1,14 @@
 class Api::V1::TripsController < ApplicationController
-  before_action :set_trip, only: %i[show update destroy]
-
+  # if we do an update action on this controller don't forget to add to set_trip before action block
+  before_action :set_trip, only: %i[show destroy]
+  before_action :set_elevation, only: %i[create]
   def create
-    coordinates = Geocoder.search(params[:location]).first.coordinates
-    elevation = ElevationService.fetch_elevation(coordinates[0], coordinates[1])
-    params[:elevation] = (elevation[:elevation] * 3.28084)
     trip = Trip.new(trip_params)
     if trip.save
       render json: TripSerializer.new(trip), status: :created
     else
-      render json: {errors: trip.errors.full_messages}, status: :bad_request
+      render json: { errors: trip.errors.full_messages }, status: :bad_request
     end
-  rescue NoMethodError
-    render json: {errors: "Could not find location. Please ensure zip code is valid or try again later."}, status: :bad_request
   end
 
   def destroy
@@ -44,5 +40,14 @@ class Api::V1::TripsController < ApplicationController
 
   def set_trip
     @trip = Trip.find_by(id: params[:id])
+  end
+
+  def set_elevation
+    coordinates = Geocoder.search(params[:location]).first.coordinates
+    elevation = ElevationService.fetch_elevation(coordinates[0], coordinates[1])
+    params[:elevation] = (elevation[:elevation] * 3.28084)
+  rescue NoMethodError
+    render json: { errors: 'Could not find location. Please ensure zip code is valid or try again later.' },
+           status: :bad_request
   end
 end
