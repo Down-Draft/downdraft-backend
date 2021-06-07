@@ -4,6 +4,6 @@ class Beer < ApplicationRecord
   has_many :trips, through: :trip_beers
 
   def self.find_beers(name)
-    where("lower(name) ILIKE '%#{name}%'").order(:name)
+    where("lower(name) ILIKE '%#{name}%'").order(:name).limit(10)
   end
 end
