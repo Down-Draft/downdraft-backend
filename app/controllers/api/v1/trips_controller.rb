@@ -1,5 +1,6 @@
 class Api::V1::TripsController < ApplicationController
-  before_action :set_trip, only: %i[show update destroy]
+  # if we do an update action on this controller don't forget to add to set_trip before action block
+  before_action :set_trip, only: %i[show destroy]
   before_action :set_elevation, only: %i[create]
   def create
     trip = Trip.new(trip_params)
