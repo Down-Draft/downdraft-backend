@@ -2,6 +2,6 @@ require 'rails_helper'
 
 RSpec.describe Style, type: :model do
   describe 'relationships' do
-    it {should have_many :beers}
+    it {should have_many(:beers).dependent(:destroy)}
   end
 end
