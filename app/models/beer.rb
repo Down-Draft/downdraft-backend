@@ -7,11 +7,17 @@ class Beer < ApplicationRecord
     where("lower(name) ILIKE '%#{name}%'").order(:name).limit(10)
   end
 
-  def self.beer_by_temp_and_elevation
-    # need location and date to get elevation & date
-    # will need to join w/ style and trips
-
-    # return beer if >5000ft-7999, abv <8%
-      # 8,000ft+, abv = <5.6%
+  def self.recommended_beers_warm(elevation)
+    if elevation >= 8000
+      set_abv = 5.6
+    elsif elevation < 8000 && elevation >= 5000
+      set_abv = 8
+    else
+      set_abv = 100
+    end
+    require "pry"; binding.pry
+    joins(:style).
+    where('style.style_name' => warm)
+    where("abv <= ?", "#{set_abv}")
   end
 end
