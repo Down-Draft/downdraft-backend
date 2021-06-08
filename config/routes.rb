@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       get '/3-day-forecast', to: 'forecast#three_day'
       get '/1-day-forecast', to: 'forecast#one_day'
 
-      get '/trips/:trip_id/beers', to: 'trips/beers#index'
+      # get '/trips/:trip_id/beers', to: 'trips/beers#index' #needs to be on the FE
 
       get '/beers', to: 'beers#index'
 
