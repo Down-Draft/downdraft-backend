@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'API V1 Beers Controller', type: :request do
   describe 'beers controller' do
     before(:each) do
-      @trip1 = create(:trip, max_temperature: 90, elevation: 500)
+      @trip1 = create(:trip, max_temperature: 90, elevation: 5280)
       @trip2 = create(:trip, max_temperature: 70.8, elevation: 8000)
       @trip3 = create(:trip, max_temperature: 50, elevation: 2000)
       @trip4 = create(:trip, max_temperature: 15, elevation: 20)

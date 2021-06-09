@@ -9,7 +9,7 @@ RSpec.describe 'Search Controller' do
       @beer4 = create(:beer, name: 'Den of Stouts')
       @beer5 = create(:beer, name: 'Coors Light')
     end
-    it 'can find all beers matching name fragment searched' do
+    it 'can find all beers matching name fragment searched', :vcr do
       get '/api/v1/beers/search?name=den', as: :json
       beers = JSON.parse(response.body, symbolize_names: true)
       expect(response).to be_successful
@@ -20,7 +20,7 @@ RSpec.describe 'Search Controller' do
       expect(beers[:data].last[:attributes][:name]).to eq(@beer2.name)
     end
 
-    it 'sends a 404 if name fragment is not found' do
+    it 'sends a 404 if name fragment is not found', :vcr do
       get '/api/v1/beers/search?name=xqzy', as: :json
       expect(response.status).to eq(404)
       expect(response.body).to eq("{\"errors\":\"No beers found\"}")
