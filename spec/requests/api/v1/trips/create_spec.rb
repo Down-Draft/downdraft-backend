@@ -6,6 +6,7 @@ RSpec.describe 'Create Trips' do
       post '/api/v1/trips', params: {location: 80206, name: "Denver",
          date: "2021-06-10", user_id: 1}
       trip = JSON.parse(response.body, symbolize_names: true)
+
       expect(response).to be_successful
       expect(response.status).to eq(201)
       expect(trip[:data][:attributes]).to have_key(:location)
@@ -37,6 +38,7 @@ RSpec.describe 'Create Trips' do
     it 'shows an error message if weather api fails', :vcr do
       post '/api/v1/trips', params: {name: "Denver", user_id: 1, max_temperature: nil}
       trip = JSON.parse(response.body, symbolize_names: true)
+
       expect(response.status).to eq(400)
       expect(trip[:errors]).to be_a(String)
       expect(trip[:errors]).to eq("Could not find location. Please ensure zip code is valid or try again later.")

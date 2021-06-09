@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 08 Jun 2021 20:02:02 GMT
+      - Wed, 09 Jun 2021 22:37:41 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -38,7 +38,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         W3sicGxhY2VfaWQiOjI1OTQwNzQwMSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJyZWxhdGlvbiIsIm9zbV9pZCI6OTM5MjA3NCwiYm91bmRpbmdib3giOlsiMzkuNzIzMjAzNiIsIjM5LjcyMzQ1NTciLCItMTA0Ljk0NTk3ODciLCItMTA0Ljk0NTYyNDQiXSwibGF0IjoiMzkuNzIzMzI5NyIsImxvbiI6Ii0xMDQuOTQ1NzkwNjczNjAxMTIiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENvbG9yYWRvLCA4MDIwNiwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoicG9zdGNvZGUiLCJpbXBvcnRhbmNlIjowLjMzNDk5OTk5OTk5OTk5OTk2LCJhZGRyZXNzIjp7ImNpdHkiOiJEZW52ZXIiLCJzdGF0ZSI6IkNvbG9yYWRvIiwicG9zdGNvZGUiOiI4MDIwNiIsImNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6MjYwODM3ODczLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJib3VuZGluZ2JveCI6WyIzOS41NzA1NDYwMDYyMDMiLCIzOS44OTA1NDYwMDYyMDMiLCItMTA1LjExMTgxNzM4MDUzIiwiLTEwNC43OTE4MTczODA1MyJdLCJsYXQiOiIzOS43MzA1NDYwMDYyMDI2MSIsImxvbiI6Ii0xMDQuOTUxODE3MzgwNTI1MjQiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIERlbnZlciBDb3VudHksIENvbG9yYWRvLCA4MDIwNiwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoicG9zdGNvZGUiLCJpbXBvcnRhbmNlIjowLjMzNDk5OTk5OTk5OTk5OTk2LCJhZGRyZXNzIjp7ImNpdHkiOiJEZW52ZXIiLCJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsInBvc3Rjb2RlIjoiODAyMDYiLCJjb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOjI2MDE4MTMyMiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0IiwiYm91bmRpbmdib3giOlsiNTUuNzAzMDY0NjMzODYiLCI1Ni4wMjMwNjQ2MzM4NiIsIjIyLjk1MTQ2NDI2NzgwNiIsIjIzLjI3MTQ2NDI2NzgwNiJdLCJsYXQiOiI1NS44NjMwNjQ2MzM4NTk1NyIsImxvbiI6IjIzLjExMTQ2NDI2NzgwNjIwNSIsImRpc3BsYXlfbmFtZSI6IkJ1YmnFsyBzZW5pxatuaWphLCDFoGlhdWxpxbMgcmFqb25vIHNhdml2YWxkeWLElywgU2lhdWxpYWkgQ291bnR5LCA4MDIwNiwgTGl0aHVhbmlhIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJwb3N0Y29kZSIsImltcG9ydGFuY2UiOjAuMzM0OTk5OTk5OTk5OTk5OTYsImFkZHJlc3MiOnsiY291bnR5IjoiQnViacWzIHNlbmnFq25pamEiLCJzdGF0ZV9kaXN0cmljdCI6IsWgaWF1bGnFsyByYWpvbm8gc2F2aXZhbGR5YsSXIiwic3RhdGUiOiJTaWF1bGlhaSBDb3VudHkiLCJwb3N0Y29kZSI6IjgwMjA2IiwiY291bnRyeSI6IkxpdGh1YW5pYSIsImNvdW50cnlfY29kZSI6Imx0In19LHsicGxhY2VfaWQiOjI2NDYzMDg5LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI2MzMyMTcwMjcsImJvdW5kaW5nYm94IjpbIi04LjA0NTYyODUiLCItOC4wNDU1Mjg1IiwiLTM0Ljk0MDE2MzYiLCItMzQuOTQwMDYzNiJdLCJsYXQiOiItOC4wNDU1Nzg1IiwibG9uIjoiLTM0Ljk0MDExMzYiLCJkaXNwbGF5X25hbWUiOiI4MDIwNiwgUnVhIGRvIEJvbSBQYXN0b3IsIElwdXRpbmdhLCBSZWNpZmUsIFJlZ2nDo28gR2VvZ3LDoWZpY2EgSW1lZGlhdGEgZG8gUmVjaWZlLCBSZWdpw6NvIE1ldHJvcG9saXRhbmEgZG8gUmVjaWZlLCBQZXJuYW1idWNvLCBOb3J0aGVhc3QgUmVnaW9uLCA1MDY3MC0yNjAsIEJyYXppbCIsImNsYXNzIjoiaGlnaHdheSIsInR5cGUiOiJidXNfc3RvcCIsImltcG9ydGFuY2UiOjAuMTExMDAwMDAwMDAwMDAwMDIsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy8vdHJhbnNwb3J0X2J1c19zdG9wMi5wLjIwLnBuZyIsImFkZHJlc3MiOnsiaGlnaHdheSI6IjgwMjA2Iiwicm9hZCI6IlJ1YSBkbyBCb20gUGFzdG9yIiwic3VidXJiIjoiSXB1dGluZ2EiLCJjaXR5X2Rpc3RyaWN0IjoiUmVjaWZlIiwiY2l0eSI6IlJlY2lmZSIsIm11bmljaXBhbGl0eSI6IlJlZ2nDo28gR2VvZ3LDoWZpY2EgSW1lZGlhdGEgZG8gUmVjaWZlIiwiY291bnR5IjoiUmVnacOjbyBNZXRyb3BvbGl0YW5hIGRvIFJlY2lmZSIsInN0YXRlIjoiUGVybmFtYnVjbyIsInJlZ2lvbiI6Ik5vcnRoZWFzdCBSZWdpb24iLCJwb3N0Y29kZSI6IjUwNjcwLTI2MCIsImNvdW50cnkiOiJCcmF6aWwiLCJjb3VudHJ5X2NvZGUiOiJiciJ9fSx7InBsYWNlX2lkIjo2NjQ3ODYwLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjc2NzE4MzUzNCwiYm91bmRpbmdib3giOlsiNTMuODk3NjE4OSIsIjUzLjg5NzcxODkiLCIyNy41MDU3NDA5IiwiMjcuNTA1ODQwOSJdLCJsYXQiOiI1My44OTc2Njg5IiwibG9uIjoiMjcuNTA1NzkwOSIsImRpc3BsYXlfbmFtZSI6ItCR0LXRgtC+0L3QvdGLINC/0YDQsNC10LfQtCwg0KXQsNGA0YzQutC+0LLRgdC60LDRjyDRg9C70LjRhtCwLCBIcnXFoWHFrWthLCBNYXNrb3dza2kgRGlzdHJpY3QsIE1pbnNrLCA3MjIwODUsIEJlbGFydXMiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoiYnVzX3N0b3AiLCJpbXBvcnRhbmNlIjowLjAwMSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zLy90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJoaWdod2F5Ijoi0JHQtdGC0L7QvdC90Ysg0L/RgNCw0LXQt9C0Iiwicm9hZCI6ItCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0YPQu9C40YbQsCIsInN1YnVyYiI6IkhydcWhYcWta2EiLCJjaXR5X2Rpc3RyaWN0IjoiTWFza293c2tpIERpc3RyaWN0IiwiY2l0eSI6Ik1pbnNrIiwicG9zdGNvZGUiOiI3MjIwODUiLCJjb3VudHJ5IjoiQmVsYXJ1cyIsImNvdW50cnlfY29kZSI6ImJ5In19LHsicGxhY2VfaWQiOjY4MjYyMTk3LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjYxMTk1MjcwMTEsImJvdW5kaW5nYm94IjpbIjQ1LjUzMjcxOCIsIjQ1LjUzMjgxOCIsIi03My45MTgzNjkiLCItNzMuOTE4MjY5Il0sImxhdCI6IjQ1LjUzMjc2OCIsImxvbiI6Ii03My45MTgzMTkiLCJkaXNwbGF5X25hbWUiOiJkJ09rYSAvIDVlIEF2ZW51ZSwgQ2hlbWluIGQnT2thLCBEb21haW5lIGRlIG1haXNvbnMgbW9kdWxhaXJlcyBEZXV4LU1vbnRhZ25lcywgU2FpbnRlLU1hcnRoZS1zdXItbGUtTGFjLCBEZXV4LU1vbnRhZ25lcywgTGF1cmVudGlkZXMsIFF1ZWJlYywgSjBOIDFQMCwgQ2FuYWRhIiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4wMDEsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy8vdHJhbnNwb3J0X2J1c19zdG9wMi5wLjIwLnBuZyIsImFkZHJlc3MiOnsiaGlnaHdheSI6ImQnT2thIC8gNWUgQXZlbnVlIiwicm9hZCI6IkNoZW1pbiBkJ09rYSIsIm5laWdoYm91cmhvb2QiOiJEb21haW5lIGRlIG1haXNvbnMgbW9kdWxhaXJlcyBEZXV4LU1vbnRhZ25lcyIsInRvd24iOiJTYWludGUtTWFydGhlLXN1ci1sZS1MYWMiLCJjb3VudHkiOiJEZXV4LU1vbnRhZ25lcyIsInJlZ2lvbiI6IkxhdXJlbnRpZGVzIiwic3RhdGUiOiJRdWViZWMiLCJwb3N0Y29kZSI6IkowTiAxUDAiLCJjb3VudHJ5IjoiQ2FuYWRhIiwiY291bnRyeV9jb2RlIjoiY2EifX1d
-  recorded_at: Tue, 08 Jun 2021 20:02:02 GMT
+  recorded_at: Wed, 09 Jun 2021 22:37:41 GMT
 - request:
     method: get
     uri: https://api.opentopodata.org/v1/srtm90m?locations=39.7233297,-104.94579067360112
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 08 Jun 2021 20:02:02 GMT
+      - Wed, 09 Jun 2021 22:37:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -68,11 +68,11 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Cf-Request-Id:
-      - 0a8ed0cfe40000ecb7a1991000000001
+      - 0a9485adcb0000103daf348000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=5AmmAIJJtHMQX8%2FDY4w%2BsKHZBswv2ZvrUgOP6DgqcB8f7HwUGkz3sibm7oIAzhtUGU0jZndAtl7S4VhTW80vzC3%2BXMWK7pkS0irMy8XQzaOt0VXohTPvMRkYojnp2%2Ba3Qko%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Q1Ctz%2FL5zJk4lFyg1BYuJWVjo7NcShC5gFWnw80V0on3STZkSDxen3MdiiQJ87WPK9NYF7NO6e4R%2FCM40C90zIXFL8klL%2Bd8J%2F8DLXJXQxYwVOYd4UjxnCizba%2B9SqaGJuQ%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
@@ -80,7 +80,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 65c4b72c9928ecb7-DFW
+      - 65cdd88fafff103d-ATL
       Alt-Svc:
       - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443";
         ma=86400
@@ -89,7 +89,7 @@ http_interactions:
       string: "{\n  \"results\": [\n    {\n      \"dataset\": \"srtm90m\", \n      \"elevation\":
         1643.0, \n      \"location\": {\n        \"lat\": 39.7233297, \n        \"lng\":
         -104.94579067360112\n      }\n    }\n  ], \n  \"status\": \"OK\"\n}\n"
-  recorded_at: Tue, 08 Jun 2021 20:02:02 GMT
+  recorded_at: Wed, 09 Jun 2021 22:37:41 GMT
 - request:
     method: get
     uri: http://api.weatherapi.com/v1/forecast.json?alerts=no&aqi=no&date=2021-06-10&hour=12&q=80206
@@ -111,7 +111,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 08 Jun 2021 20:02:07 GMT
+      - Wed, 09 Jun 2021 22:37:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -121,7 +121,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-718
+      - BunnyCDN-GA1-488
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -129,11 +129,11 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '617'
+      - '488'
       Request-Context:
       - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       Cdn-Cachedat:
-      - '2021-06-08 15:02:07'
+      - '2021-06-09 22:36:55'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
@@ -141,85 +141,19 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Cdn-Requestid:
-      - e4c83756609bf87f13b64eff48eda8f6
-      Cdn-Cache:
-      - MISS
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1623182527,"localtime":"2021-06-08
-        14:02"},"current":{"last_updated_epoch":1623181500,"last_updated":"2021-06-08
-        13:45","temp_c":32.2,"temp_f":90.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":16.1,"wind_kph":25.9,"wind_degree":190,"wind_dir":"S","pressure_mb":1015.0,"pressure_in":30.4,"precip_mm":0.0,"precip_in":0.0,"humidity":17,"cloud":25,"feelslike_c":30.5,"feelslike_f":86.9,"vis_km":16.0,"vis_miles":9.0,"uv":7.0,"gust_mph":6.3,"gust_kph":10.1},"forecast":{"forecastday":[{"date":"2021-06-10","date_epoch":1623283200,"day":{"maxtemp_c":33.6,"maxtemp_f":92.5,"mintemp_c":18.3,"mintemp_f":64.9,"avgtemp_c":26.0,"avgtemp_f":78.8,"maxwind_mph":16.3,"maxwind_kph":26.3,"totalprecip_mm":0.0,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"05:32
-        AM","sunset":"08:27 PM","moonrise":"05:35 AM","moonset":"09:01 PM","moon_phase":"Waxing
-        Crescent","moon_illumination":"7"},"hour":[{"time_epoch":1623348000,"time":"2021-06-10
-        12:00","temp_c":31.3,"temp_f":88.3,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":9.2,"wind_kph":14.8,"wind_degree":205,"wind_dir":"SSW","pressure_mb":1004.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":11,"cloud":16,"feelslike_c":29.1,"feelslike_f":84.4,"windchill_c":31.3,"windchill_f":88.3,"heatindex_c":29.1,"heatindex_f":84.4,"dewpoint_c":-2.1,"dewpoint_f":28.2,"will_it_rain":0,"chance_of_rain":"0","will_it_snow":0,"chance_of_snow":"0","vis_km":10.0,"vis_miles":6.0,"gust_mph":10.5,"gust_kph":16.9,"uv":8.0}]}]}}'
-  recorded_at: Tue, 08 Jun 2021 20:02:07 GMT
-- request:
-    method: get
-    uri: http://api.weatherapi.com/v1/forecast.json?alerts=no&aqi=no&date=2021-06-10&hour=12&q=80206
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Key:
-      - 91c07184fd3d49568f6231553210406
-      User-Agent:
-      - Faraday v1.4.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 08 Jun 2021 20:02:17 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-718
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Cdn-Edgestorageid:
-      - '617'
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
-      Cdn-Cachedat:
-      - '2021-06-08 15:02:07'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cache-Control:
-      - public, max-age=180
-      Cdn-Requestid:
-      - 6c95b94590e57ae9f23db35a1c053f1f
+      - '086c1216e5c68b4749f39466628ee2ec'
       Cdn-Cache:
       - HIT
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1623182527,"localtime":"2021-06-08
-        14:02"},"current":{"last_updated_epoch":1623181500,"last_updated":"2021-06-08
-        13:45","temp_c":32.2,"temp_f":90.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":16.1,"wind_kph":25.9,"wind_degree":190,"wind_dir":"S","pressure_mb":1015.0,"pressure_in":30.4,"precip_mm":0.0,"precip_in":0.0,"humidity":17,"cloud":25,"feelslike_c":30.5,"feelslike_f":86.9,"vis_km":16.0,"vis_miles":9.0,"uv":7.0,"gust_mph":6.3,"gust_kph":10.1},"forecast":{"forecastday":[{"date":"2021-06-10","date_epoch":1623283200,"day":{"maxtemp_c":33.6,"maxtemp_f":92.5,"mintemp_c":18.3,"mintemp_f":64.9,"avgtemp_c":26.0,"avgtemp_f":78.8,"maxwind_mph":16.3,"maxwind_kph":26.3,"totalprecip_mm":0.0,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1623278215,"localtime":"2021-06-09
+        16:36"},"current":{"last_updated_epoch":1623277800,"last_updated":"2021-06-09
+        16:30","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":100,"wind_dir":"E","pressure_mb":1021.0,"pressure_in":30.6,"precip_mm":0.0,"precip_in":0.0,"humidity":18,"cloud":25,"feelslike_c":28.4,"feelslike_f":83.0,"vis_km":16.0,"vis_miles":9.0,"uv":8.0,"gust_mph":8.9,"gust_kph":14.4},"forecast":{"forecastday":[{"date":"2021-06-10","date_epoch":1623283200,"day":{"maxtemp_c":34.1,"maxtemp_f":93.4,"mintemp_c":18.6,"mintemp_f":65.5,"avgtemp_c":26.7,"avgtemp_f":80.1,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"05:32
         AM","sunset":"08:27 PM","moonrise":"05:35 AM","moonset":"09:01 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"7"},"hour":[{"time_epoch":1623348000,"time":"2021-06-10
-        12:00","temp_c":31.3,"temp_f":88.3,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":9.2,"wind_kph":14.8,"wind_degree":205,"wind_dir":"SSW","pressure_mb":1004.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":11,"cloud":16,"feelslike_c":29.1,"feelslike_f":84.4,"windchill_c":31.3,"windchill_f":88.3,"heatindex_c":29.1,"heatindex_f":84.4,"dewpoint_c":-2.1,"dewpoint_f":28.2,"will_it_rain":0,"chance_of_rain":"0","will_it_snow":0,"chance_of_snow":"0","vis_km":10.0,"vis_miles":6.0,"gust_mph":10.5,"gust_kph":16.9,"uv":8.0}]}]}}'
-  recorded_at: Tue, 08 Jun 2021 20:02:17 GMT
+        12:00","temp_c":32.4,"temp_f":90.3,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":13.0,"wind_kph":20.9,"wind_degree":208,"wind_dir":"SSW","pressure_mb":1003.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":9,"cloud":13,"feelslike_c":30.2,"feelslike_f":86.4,"windchill_c":32.4,"windchill_f":90.3,"heatindex_c":30.2,"heatindex_f":86.4,"dewpoint_c":-3.8,"dewpoint_f":25.2,"will_it_rain":0,"chance_of_rain":"0","will_it_snow":0,"chance_of_snow":"0","vis_km":10.0,"vis_miles":6.0,"gust_mph":15.0,"gust_kph":24.1,"uv":8.0}]}]}}'
+  recorded_at: Wed, 09 Jun 2021 22:37:41 GMT
 recorded_with: VCR 6.0.0

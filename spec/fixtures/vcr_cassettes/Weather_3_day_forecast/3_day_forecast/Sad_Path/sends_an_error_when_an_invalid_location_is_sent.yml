@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Key:
-      - dc413d9b51b243228c6211920210106
+      - 91c07184fd3d49568f6231553210406
       User-Agent:
       - Faraday v1.4.2
       Accept-Encoding:
@@ -21,7 +21,7 @@ http_interactions:
       message: Bad Request
     headers:
       Date:
-      - Sat, 05 Jun 2021 22:16:47 GMT
+      - Wed, 09 Jun 2021 22:36:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - BunnyCDN-DEN1-616
+      - BunnyCDN-GA1-488
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -37,11 +37,11 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '616'
+      - '488'
       Request-Context:
       - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       Cdn-Cachedat:
-      - '2021-06-05 16:16:47'
+      - '2021-06-09 22:36:56'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
@@ -49,11 +49,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=5
       Cdn-Requestid:
-      - b41e86c6fbd02cdf8a6a3bbe83eddbc5
+      - c33d8bdcdac8ee5894de5432371f7b08
       Cdn-Cache:
       - MISS
     body:
       encoding: UTF-8
       string: '{"error":{"code":1006,"message":"No matching location found."}}'
-  recorded_at: Sat, 05 Jun 2021 22:16:47 GMT
+  recorded_at: Wed, 09 Jun 2021 22:36:56 GMT
 recorded_with: VCR 6.0.0
