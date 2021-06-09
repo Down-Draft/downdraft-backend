@@ -8,12 +8,11 @@ class Beer < ApplicationRecord
     end
 
     def recommended_beers_hot(elevation)
-      beers = joins(:style).
+      joins(:style).
       where('styles.style_name ILIKE ANY(ARRAY[?])', hot).
       where('abv < ?', set_abv(elevation)).
       order("RANDOM()").
       limit(9)
-      require "pry"; binding.pry
     end
 
     def recommended_beers_warm(elevation)
