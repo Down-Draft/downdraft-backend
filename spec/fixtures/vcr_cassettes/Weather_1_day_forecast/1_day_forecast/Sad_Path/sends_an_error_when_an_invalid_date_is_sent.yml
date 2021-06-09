@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Key:
-      - dc413d9b51b243228c6211920210106
+      - 91c07184fd3d49568f6231553210406
       User-Agent:
       - Faraday v1.4.2
       Accept-Encoding:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 05 Jun 2021 23:26:27 GMT
+      - Wed, 09 Jun 2021 22:36:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,7 +31,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-301
+      - BunnyCDN-GA1-488
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -39,11 +39,11 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '301'
+      - '488'
       Request-Context:
       - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       Cdn-Cachedat:
-      - '2021-06-05 18:26:27'
+      - '2021-06-09 22:36:56'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
@@ -51,14 +51,14 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Cdn-Requestid:
-      - be0085a5d2ae41e0bcb86b8f6a0b2ae0
+      - ae21ceeaa9b90db747d487b1759f727f
       Cdn-Cache:
-      - EXPIRED
+      - MISS
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1622935587,"localtime":"2021-06-05
-        17:26"},"current":{"last_updated_epoch":1622934900,"last_updated":"2021-06-05
-        17:15","temp_c":31.7,"temp_f":89.1,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":0.0,"wind_kph":0.0,"wind_degree":255,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":30.3,"precip_mm":0.0,"precip_in":0.0,"humidity":17,"cloud":25,"feelslike_c":29.5,"feelslike_f":85.0,"vis_km":16.0,"vis_miles":9.0,"uv":8.0,"gust_mph":12.1,"gust_kph":19.4},"forecast":{"forecastday":[]}}'
-  recorded_at: Sat, 05 Jun 2021 23:26:27 GMT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"USA","lat":39.73,"lon":-104.95,"tz_id":"America/Denver","localtime_epoch":1623278215,"localtime":"2021-06-09
+        16:36"},"current":{"last_updated_epoch":1623277800,"last_updated":"2021-06-09
+        16:30","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":100,"wind_dir":"E","pressure_mb":1021.0,"pressure_in":30.6,"precip_mm":0.0,"precip_in":0.0,"humidity":18,"cloud":25,"feelslike_c":28.4,"feelslike_f":83.0,"vis_km":16.0,"vis_miles":9.0,"uv":8.0,"gust_mph":9.4,"gust_kph":15.1},"forecast":{"forecastday":[]}}'
+  recorded_at: Wed, 09 Jun 2021 22:36:56 GMT
 recorded_with: VCR 6.0.0
