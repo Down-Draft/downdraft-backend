@@ -1,6 +1,5 @@
 class Api::V1::Beers::SearchController < ApplicationController
   def index
-    binding.pry
     @beers = Beer.find_beers(params[:name])
     if @beers.present?
       render json: BeerSerializer.new(@beers)
