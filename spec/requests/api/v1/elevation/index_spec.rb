@@ -19,7 +19,6 @@ describe 'Elevation' do
 
         get '/api/v1/elevation', params: {location:"1" }
         elevation = JSON.parse(response.body, symbolize_names: true)
-
         expect(response.status).to eq(404)
         expect(elevation).to be_a Hash
         expect(elevation).to have_key(:errors)

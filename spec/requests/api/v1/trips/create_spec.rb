@@ -6,7 +6,6 @@ RSpec.describe 'Create Trips' do
       post '/api/v1/trips', params: {location: 80206, name: "Denver",
          date: "2021-06-10", user_id: 1}
       trip = JSON.parse(response.body, symbolize_names: true)
-
       expect(response).to be_successful
       expect(response.status).to eq(201)
       expect(trip[:data][:attributes]).to have_key(:location)
