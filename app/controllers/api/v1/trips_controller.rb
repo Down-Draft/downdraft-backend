@@ -58,6 +58,6 @@ class Api::V1::TripsController < ApplicationController
     params[:max_temperature] = max_temp.max_temp
   rescue NoMethodError
     render json: { errors: 'Could not find location. Please ensure zip code is valid or try again later.' },
-           status: 400
+           status: :bad_request
   end
 end

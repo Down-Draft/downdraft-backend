@@ -1,5 +1,3 @@
 class Api::V1::Trips::BeersController < ApplicationController
-  def index
-
-  end
+  def index; end
 end

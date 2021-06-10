@@ -8,35 +8,35 @@ class Beer < ApplicationRecord
     end
 
     def recommended_beers_hot(elevation)
-      joins(:style).
-      where('styles.style_name ILIKE ANY(ARRAY[?])', hot).
-      where('abv < ?', set_abv(elevation)).
-      order("RANDOM()").
-      limit(9)
+      joins(:style)
+        .where('styles.style_name ILIKE ANY(ARRAY[?])', hot)
+        .where('abv < ?', set_abv(elevation))
+        .order('RANDOM()')
+        .limit(9)
     end
 
     def recommended_beers_warm(elevation)
-      joins(:style).
-      where('styles.style_name ILIKE ANY(ARRAY[?])', warm).
-      where('abv < ?', set_abv(elevation)).
-      order("RANDOM()").
-      limit(9)
+      joins(:style)
+        .where('styles.style_name ILIKE ANY(ARRAY[?])', warm)
+        .where('abv < ?', set_abv(elevation))
+        .order('RANDOM()')
+        .limit(9)
     end
 
     def recommended_beers_cool(elevation)
-      joins(:style).
-      where('styles.style_name ILIKE ANY(ARRAY[?])', cool).
-      where('abv < ?', set_abv(elevation)).
-      order("RANDOM()").
-      limit(9)
+      joins(:style)
+        .where('styles.style_name ILIKE ANY(ARRAY[?])', cool)
+        .where('abv < ?', set_abv(elevation))
+        .order('RANDOM()')
+        .limit(9)
     end
 
     def recommended_beers_cold(elevation)
-      joins(:style).
-      where('styles.style_name ILIKE ANY(ARRAY[?])', cold).
-      where('abv < ?', set_abv(elevation)).
-      order("RANDOM()").
-      limit(9)
+      joins(:style)
+        .where('styles.style_name ILIKE ANY(ARRAY[?])', cold)
+        .where('abv < ?', set_abv(elevation))
+        .order('RANDOM()')
+        .limit(9)
     end
 
     def set_abv(elevation)
