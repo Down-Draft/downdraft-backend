@@ -16,9 +16,13 @@ class Api::V1::BeersController < ApplicationController
       render json: { errors: 'No trip id entered' }, status: :bad_request
     end
   end
-  def show
 
-    beer =  Beer.find_by(id: params[:id])
-    render json: BeerSerializer.new(beer)
+  def show
+    beer = Beer.find_by(id: params[:id])
+    if beer.nil?
+      render json: { errors: 'No beer found' }, status: :not_found
+    else
+      render json: BeerSerializer.new(beer)
+    end
   end
 end

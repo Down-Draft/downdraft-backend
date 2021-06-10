@@ -5,7 +5,7 @@ class Api::V1::Trips::BeersController < ApplicationController
     @trip.beers << @beer
     render json: TripSerializer.new(@trip), status: :created
   rescue StandardError
-    render json: {errors: "Trip or Beer not found"}, status: :not_found
+    render json: { errors: 'Trip or Beer not found' }, status: :not_found
   end
 
   private
@@ -23,5 +23,4 @@ class Api::V1::Trips::BeersController < ApplicationController
     render json: { errors: 'Could not find beer' },
            status: :bad_request
   end
-  
 end
