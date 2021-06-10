@@ -15,6 +15,7 @@ RSpec.describe 'Trip Show' do
       expect(trips[:data][:attributes]).to have_key(:elevation)
       expect(trips[:data][:attributes]).to have_key(:date)
       expect(trips[:data][:attributes]).to have_key(:user_id)
+      expect(trips[:data][:attributes]).to have_key(:max_temperature)
       expect(trips[:data]).to have_key(:relationships)
     end
 
@@ -29,6 +30,7 @@ RSpec.describe 'Trip Show' do
       expect(trips[:data][:attributes]).to have_key(:elevation)
       expect(trips[:data][:attributes]).to have_key(:date)
       expect(trips[:data][:attributes]).to have_key(:user_id)
+      expect(trips[:data][:attributes]).to have_key(:max_temperature)
       expect(trips[:data][:relationships].count).to eq(0)
     end
   end
@@ -44,6 +46,7 @@ RSpec.describe 'Trip Show' do
       expect(trips[:data][:attributes]).to have_key(:elevation)
       expect(trips[:data][:attributes]).to have_key(:date)
       expect(trips[:data][:attributes]).to have_key(:user_id)
+      expect(trips[:data][:attributes]).to have_key(:max_temperature)
       expect(trips[:data]).to have_key(:relationships)
     end
   end
