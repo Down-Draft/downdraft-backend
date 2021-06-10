@@ -7,7 +7,10 @@ Rails.application.routes.draw do
       get '/1-day-forecast', to: 'forecast#one_day'
 
       post '/trips/:trip_id/beers', to: 'trips/beers#create' #needs to be on the FE
-
+      
+      namespace :beers do
+        resources :search, only: :index
+      end
       get '/beers', to: 'beers#index'
       get '/beers/:id', to: 'beers#show'
 
@@ -15,9 +18,6 @@ Rails.application.routes.draw do
 
       # resources :beers, only: %i[index show]
 
-      namespace :beers do
-        resources :search, only: :index
-      end
     end
   end
 end
