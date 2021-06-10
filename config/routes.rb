@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       post '/trips/:trip_id/beers', to: 'trips/beers#create' #needs to be on the FE
 
       get '/beers', to: 'beers#index'
+      get '/beers/:id', to: 'beers#show'
 
       resources :trips, only: %i[index show create destroy] 
 
