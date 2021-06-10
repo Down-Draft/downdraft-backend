@@ -17,7 +17,7 @@ class Api::V1::BeersController < ApplicationController
     end
   end
   def show
-    binding.pry
+
     beer =  Beer.find_by(id: params[:id])
     render json: BeerSerializer.new(beer)
   end
