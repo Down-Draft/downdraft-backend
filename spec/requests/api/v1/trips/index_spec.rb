@@ -14,6 +14,8 @@ RSpec.describe 'Trip Index' do
       expect(trips[:data].first[:attributes]).to have_key(:elevation)
       expect(trips[:data].first[:attributes]).to have_key(:date)
       expect(trips[:data].first[:attributes]).to have_key(:user_id)
+      expect(trips[:data].first[:attributes]).to have_key(:max_temperature)
+
     end
   end
 end

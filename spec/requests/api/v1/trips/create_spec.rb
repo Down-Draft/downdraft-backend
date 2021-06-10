@@ -13,6 +13,8 @@ RSpec.describe 'Create Trips' do
       expect(trip[:data][:attributes]).to have_key(:date)
       expect(trip[:data][:attributes]).to have_key(:elevation)
       expect(trip[:data][:attributes]).to have_key(:user_id)
+      expect(trip[:data][:attributes]).to have_key(:max_temperature)
+
       expect(Trip.count).to eq(1)
     end
   end
