@@ -133,37 +133,3 @@ Run all tests in application with `bundle exec rspec`. When test is complete, ru
 ## Acknowledgments
 
 Thank you to Weather and Open Top Data for allowing us to use your API's. Also, thanks to Open Beer db for your CSV database. We'd like to thank Turing School of Software and Engineering for helping me come up with the idea for this application, and thank you for reading through this project!
-
-
-
-
-
-
-
-
-
-
-
-## Screenshot
-### ![Demo]lib/images/down-draft-demo.gif)
-
-
-## Project Design
-![Diagram](lib/images/downdraft_project_diagram.jpeg "Project Design")
-
-## Database Schema
-![Database](lib/images/downdraft_db_schema.jpeg "Database Schema")
-
-## Areas of Focus
-* Practice good project management through project boards, wireframes, daily stand-ups and rotating pairs
-* Make small commits, descriptive pull requests with template, team code reviews
-* Writing clean, maintainable code
-
-## To-do list:
-* Complete API endpoints
-* Refactoring
-* Additional extensions
-
-
-## Status
-Project is: _in progress_
