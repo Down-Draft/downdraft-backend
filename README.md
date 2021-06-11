@@ -1,6 +1,5 @@
 ![Title](lib/images/downdraft_title_helvetica_neue_condensedblack.jpg)
 
-[![Build Status](https://travis-ci.com/github/Down-Draft/downdraft-frontend)](https://travis-ci.com/github/Down-Draft/downdraft-backend)
 
 ## About
 DownDraft is an application in which users can get beer recommendations based on the forecast (temperature) and elevation of a planned outing.
