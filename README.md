@@ -5,17 +5,15 @@
 DownDraft is an application in which users can get beer recommendations based on the forecast (temperature) and elevation of a planned outing.
 
 ## Table of contents
-[**General Info**](#general-info) |
-[**Link**](#link) |
-[**Screenshot**](#screenshot) |
-[**Project Design**](#project-design) |
-[**Database Schema**](#database-schema) |
-[**Areas of Focus**](#areas-of-focus) |
-[**Technologies**](#technologies) |
+[**About**](#about) |
+[**Versions**](#versions) |
 [**Setup**](#setup) |
-[**Features**](#features) |
-[**Status**](#status)l |
-[**Contact**](contact)
+[**Endpoints**](#endpoints) |
+[**Examples**](#examples) |
+[**Tests**](#running-the-tests) |
+[**Deployment**](#deployment) |
+[**Developers**](#developers) |
+[**Acknowledgements**](#acknowledgements) 
 
 ## Getting Started
 Visit us on [Heroku](https://downdraft-backend.herokuapp.com/) or on [Local Host 3000](http://localhost:3000/) to get started with the steps below.
