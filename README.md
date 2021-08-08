@@ -129,4 +129,4 @@ Run all tests in application with `bundle exec rspec`. When test is complete, ru
 
 ## Acknowledgments
 
-Thank you to Weather and Open Top Data for allowing us to use your API's. Also, thanks to Open Beer db for your CSV database. We'd like to thank Turing School of Software and Engineering for helping me come up with the idea for this application, and thank you for reading through this project!
+Thank you to Weather and Open Topo Data for allowing us to use your API's. Also, thanks to Open Beer DB for your CSV database. We'd like to thank you for checking out this project!
